@@ -27,7 +27,7 @@ const Login = ({ setLoginUser }) => {
         .then(res => {
         alert(res.data.message)
         setLoginUser(res.data.user)
-        history.push("/")
+        history.push("/question")
         })
     }
 
